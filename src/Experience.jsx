@@ -1,13 +1,13 @@
 function Experience() {
   const expData = [
     {
-      compLogo: "/assets/company-logo.jpg",
-      compName: "iTalent Digital",
-      startEndDate: "March 2022 - Present",
+      compLogo: "/assets/virinchilimited.png",
+      compName: "Virinchi Limited",
+      startEndDate: "April 2022 - Present",
       compLocation: "Hyderabad",
       description: "Working as a Software Engineer",
     },
-  ];
+  ]
   return (
     <div id="work">
       {/* <h2>Experience</h2> */}

@@ -16,15 +16,15 @@ function About() {
           MY SELF
         </h2>
         <p>
-          Motivated Software Engineer with over 2 years of experience in the
+          Motivated Software Engineer with over 3+ years of experience in the
           software industry, seeking to leverage my technical skills in HTML,
-          CSS, React, JavaScript, and other technologies in a challenging role.
+          CSS, React, React MUI, and other technologies in a challenging role.
           Committed to creating robust and user-friendly applications.
         </p>
         <a
           className="primary_btn"
-          href="/assets/Resume-ManasaBingi-24.9 (1).pdf"
-          download="ManasaBingi_Resume.pdf"
+          href="/assets/SrinivasBattula-Resume.pdf"
+          download="SrinivasayadavBattula-resume.pdf"
         >
           <span>DOWNLOAD CV</span>
         </a>

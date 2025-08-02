@@ -50,9 +50,11 @@ const ContactForm = () => {
       message: `Message from ${formData.email} \n\nMESSAGE:\n${formData.message}`,
     };
 
+    //service id
+    //service_61j1729
     emailjs
       .send(
-        "service_uj41y8e",
+        "service_61j1729",
         "template_b04t2jt",
         templateParams,
         "p_TBIISTWrD3sDncw"
@@ -134,12 +136,12 @@ const ContactForm = () => {
             <li className="s_m_list">
               <a href="mailto:bingim115@gmail.com" className="s_media_link">
                 <MdMail className="s_m_icon" size={20} />
-                <span>bingim115@gmail.com</span>
+                <span>srinivasbattula315@gmail.com</span>
               </a>
             </li>
             <li className="s_m_list">
               <a
-                href="https://www.linkedin.com/in/manasa-bingi-912723227/"
+                href="https://www.linkedin.com/in/srinivasayadav-battula-163699238"
                 className="s_media_link"
               >
                 <FaLinkedin className="s_m_icon" size={20} />
@@ -148,7 +150,7 @@ const ContactForm = () => {
             </li>
             <li className="s_m_list">
               <a
-                href="https://github.com/manasabingi115"
+                href="https://github.com/SrinivasBattula341"
                 className="s_media_link"
               >
                 <FaGithub className="s_m_icon" size={20} />

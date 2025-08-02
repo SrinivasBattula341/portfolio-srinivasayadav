@@ -32,7 +32,7 @@ function Header() {
     <div className="header_container">
       <div className="header">
         <div className="meetme">
-          <h1 name="test">MANASA BINGI</h1>
+          <h1 name="test">SRINIVASAYADAV BATTULA</h1>
         </div>
         {isMobile ? (
           <MobileMenu navData={navData} />
@@ -55,7 +55,7 @@ function Header() {
                 </li>
               ))}
             </ul>
-          </div>
+            </div>  
         )}
       </div>
     </div>
