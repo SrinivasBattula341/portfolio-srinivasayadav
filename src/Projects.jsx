@@ -71,14 +71,15 @@ function Projects() {
                       <a
                         href={data.githubRepo}
                         target="_blank"
-                        className="primary_btn card-btn"
+                         className={data.id >1 ||data.projectName=="Hospital Run(Redux)" ? "primary_btn card-btn disabled-link" : "primary_btn card-btn"}
+                        
                       >
                         Git Repo
                       </a>
                       <a
                         href={data.liveAt}
                         target="_blank"
-                        className="primary_btn card-btn"
+                         className={data.id >1 ||data.projectName=="Hospital Run(Redux)" ? "primary_btn card-btn disabled-link" : "primary_btn card-btn"}
                       >
                         Live
                       </a>
@@ -88,8 +89,11 @@ function Projects() {
                       className="view_details"
                       id="view_details"
                       onClick={() => {
-                        setSelectedData(data);
-                        setPopUp(true);
+                        if(data.id >1 ||data.projectName=="Hospital Run(Redux)"){
+                          //
+                        }
+                     else { setSelectedData(data);
+                        setPopUp(true);}
                       }}
                     >
                       View Deatils

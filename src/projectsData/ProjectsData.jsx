@@ -7,11 +7,12 @@ import todoimg from "./Images/Todo-app.png";
 import clockimg from "./Images/Clock.png";
 import dictionaryimg from "./Images/dictionary-app.png";
 import hospitalRunimg from "./Images/hospital run.png";
-import portfolio from "./Images/portfolio.png";
+import portfoliocard from "./Images/portfoliocard.png";
 
 const projectsData = [
   {
-    image: portfolio,
+    id :1,
+    image: portfoliocard,
     projectName: "My Portfolio",
     description: "This is my portfolio website.",
     technologiesUsed: [
@@ -22,11 +23,11 @@ const projectsData = [
       "Fluent UI React v9",
       "EmailJs",
     ],
-    liveAt: "https://hospital-run.vercel.app/",
-    githubRepo: "https://github.com/manasabingi115/Hospital-Run",
+    liveAt: "https://portfolio-srinivasayadav.vercel.app/",
+    githubRepo: "https://github.com/SrinivasBattula341/portfolio-srinivasayadav",
     filterBy: ["latest", "popular"],
   },
-  {
+  {id :2,
     image: hospitalRunimg,
     projectName: "Hospital Run(Redux)",
     description:
@@ -44,6 +45,7 @@ const projectsData = [
     filterBy: ["latest", "popular"],
   },
   {
+      id :3,
     image: shoppingimg,
     projectName: "Food Delivery App",
     description:
@@ -54,6 +56,7 @@ const projectsData = [
     filterBy: ["popular"],
   },
   {
+     id :4,
     image: warehouseimg,
     projectName: "Warehouse Management App(Redux)",
     description:
@@ -64,6 +67,7 @@ const projectsData = [
     filterBy: [],
   },
   {
+     id : 5,
     image: fbimg,
     projectName: "Facebook Post Model",
     description:
@@ -73,7 +77,8 @@ const projectsData = [
     githubRepo: "https://github.com/manasabingi115/Facebook-Post-model-",
     filterBy: [],
   },
-  {
+  {   
+    id :6,
     image: recipesimg,
     projectName: "Food Recipe App",
     description:
@@ -84,6 +89,7 @@ const projectsData = [
     filterBy: [],
   },
   {
+    id:7,
     image: todoimg,
     projectName: "Todo application based on REST API",
     description:
@@ -94,6 +100,7 @@ const projectsData = [
     filterBy: [],
   },
   {
+    id : 8,
     image: currencyimg,
     projectName: "Currency Converter",
     description:
@@ -104,6 +111,7 @@ const projectsData = [
     filterBy: [],
   },
   {
+     id : 9,
     image: dictionaryimg,
     projectName: "Dictionary App",
     description:
@@ -114,6 +122,7 @@ const projectsData = [
     filterBy: [],
   },
   {
+     id:10,
     image: clockimg,
     projectName: "Analog Clock",
     description: "This is a clock designed using HTML and CSS.",

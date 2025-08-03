@@ -134,7 +134,7 @@ const ContactForm = () => {
               <span>Hyderabad</span>
             </li>
             <li className="s_m_list">
-              <a href="mailto:bingim115@gmail.com" className="s_media_link">
+              <a href="mailto:srinivasbattula315@gmail.com" className="s_media_link">
                 <MdMail className="s_m_icon" size={20} />
                 <span>srinivasbattula315@gmail.com</span>
               </a>
@@ -150,7 +150,7 @@ const ContactForm = () => {
             </li>
             <li className="s_m_list">
               <a
-                href="https://github.com/SrinivasBattula341"
+                href="https://github.com/SrinivasBattula341/"
                 className="s_media_link"
               >
                 <FaGithub className="s_m_icon" size={20} />
@@ -159,7 +159,7 @@ const ContactForm = () => {
             </li>
             <li className="s_m_list">
               <a
-                href="https://portfolio-website-manasa-b.vercel.app/"
+                href="https://portfolio-srinivasayadav.vercel.app/"
                 target="_blank"
                 className="s_media_link"
               >

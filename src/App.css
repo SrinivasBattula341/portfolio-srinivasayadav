@@ -96,6 +96,14 @@ a {
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
+
+.primary_btn.disabled-link,
+.card-btn.disabled-link {
+  pointer-events: none;   /* Prevent clicking */
+  opacity: 0.6;           /* Slightly faded look */
+  cursor: not-allowed;    /* Show disabled cursor */
+  box-shadow: none;       /* Remove shadow for a flat disabled look */
+}
 .primary_btn span {
   padding: 0 42px;
 }
